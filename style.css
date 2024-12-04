@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#album-cover {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#background-music {
+    margin-top: 20px;
+}
