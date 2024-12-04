@@ -8,9 +8,23 @@ body {
 }
 
 #album-title {
-    max-width: 100%; /* Adjust size to fit the container */
-    height: auto;
-    margin-bottom: 20px; /* Add space below the image */
+    max-width: 100%; /* Prevent the image from exceeding the screen width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center alignment fix */
+    margin: 0 auto; /* Center the image */
+    padding: 10px; /* Optional: Add some space around the image */
+}
+
+@media (max-width: 768px) {
+    #album-title {
+        max-width: 80%; /* Scale down for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #album-title {
+        max-width: 90%; /* Further scale down for very small screens */
+    }
 }
 
 .container {
