@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+#album-title {
+    max-width: 100%; /* Adjust size to fit the container */
+    height: auto;
+    margin-bottom: 20px; /* Add space below the image */
+}
+
 .container {
     padding: 20px;
 }
